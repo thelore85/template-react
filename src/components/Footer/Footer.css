@@ -1,0 +1,15 @@
+#footer{
+    position: absolute;
+    bottom: 0;
+    background-color: rgb(255, 255, 255);
+}
+
+#footer .wrapper {
+    font-size: 10px;
+    font-style: italic;
+}
+
+#footer p{
+    padding: 0;
+    margin: 0;
+}

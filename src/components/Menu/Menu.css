@@ -1,0 +1,20 @@
+#menu{
+    background-color: white;
+}
+#menu .wrapper{
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 0px;
+    width: 100%;
+}
+
+#menu .logo{
+    font-size: 25px;
+    font-weight: 400;
+}
+
+#menu i{
+    margin-right: 5px;
+    font-size: 35px;
+    color:rgb(255, 153, 0);
+}

@@ -1,20 +1,32 @@
+
+/* MAIN */
 #menu{
-    background-color: white;
+  background-color: white;
 }
 #menu .wrapper{
-    display: flex;
-    justify-content: space-between;
-    padding: 0px 0px;
-    width: 100%;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
 }
 
+/* LOGO  */
 #menu .logo{
-    font-size: 25px;
-    font-weight: 400;
+  font-size: 25px;
+  font-weight: 400;
 }
 
 #menu i{
-    margin-right: 5px;
-    font-size: 35px;
-    color:rgb(255, 153, 0);
+  margin-right: 15px;
+  font-size: 45px;
+  color:rgb(255, 153, 0);
+}
+
+
+/* MENU LINKS */
+#menu .links a{
+  margin-left: 15px;
+}
+
+#menu .links{
+  margin-top: 10px;
 }

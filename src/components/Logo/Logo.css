@@ -1,0 +1,16 @@
+/* LOGO  */
+#logo.logo{
+  font-size: 25px;
+  font-weight: 400;
+}
+
+#logo i{
+  margin-right: 15px;
+  font-size: 45px;
+  color: var(--secundary);
+}
+
+#logo i:hover{
+  color: var(--primary);
+  transition: 1000ms;
+}

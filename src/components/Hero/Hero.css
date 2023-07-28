@@ -1,0 +1,23 @@
+#hero {
+  z-index:1;
+  position: relative;
+  background-color: var(--section-bg);
+  min-height: 100vh;
+}
+
+#hero p{
+  text-align: left;
+}
+
+#hero img{
+  width: 100%;
+}
+
+#hero .btn{
+  margin-right: 15px;
+}
+
+
+
+
+

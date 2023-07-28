@@ -1,9 +1,10 @@
 #footer{
-    background-color: rgb(255, 255, 255);
-    min-height: 15vh;
+    background-color: var(--section-bg);
+    min-height: 150px;
 }
 
 #footer .wrapper {
+    text-align: center;
     font-size: 10px;
     font-style: italic;
 }

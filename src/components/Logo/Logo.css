@@ -7,10 +7,10 @@
 #logo i{
   margin-right: 15px;
   font-size: 45px;
-  color: var(--secundary);
+  color: var(--primary);
 }
 
 #logo i:hover{
-  color: var(--primary);
+  color: var(--secondary);
   transition: 1000ms;
 }

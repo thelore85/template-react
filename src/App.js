@@ -1,7 +1,9 @@
 import React, { Component } from 'react';
 import Menu from './components/Menu/Menu.js';
-import Main from './components/Main/Main.js';
+import Hero from './components/Hero/Hero.js';
 import Footer from './components/Footer/Footer.js';
+import Product from './components/Product/Product.js';
+import About from './components/About/About.js';
 
 // css
 import 'bootstrap/dist/css/bootstrap.min.css'
@@ -12,7 +14,9 @@ class App extends Component{
 		return(
 			<div className='app-container'>
 				<Menu />
-				<Main />
+				<Hero />
+				<Product />
+				<About />
 				<Footer />
 			</div>
 		)

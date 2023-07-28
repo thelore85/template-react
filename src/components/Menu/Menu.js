@@ -11,8 +11,9 @@ const Menu = () => {
 
         <div className="links">
             <a href="#">Register</a>
-            <a href="#">Log-in</a>   
+            <a href="#">Log-in</a>
         </div>
+
       </div>
     </section>
   )

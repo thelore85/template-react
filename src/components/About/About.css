@@ -1,0 +1,18 @@
+#about {
+  background-color: var(--section-bg-alt);
+  color: var(--on-section-bg-alt);
+  min-height: 70vh;
+}
+
+#about p{
+  text-align: left;
+}
+
+#about img{
+  width: 100%;
+}
+
+
+
+
+

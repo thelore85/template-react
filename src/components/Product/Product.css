@@ -1,0 +1,20 @@
+
+#product{
+  min-height: 70vh;
+}
+#product .wrapper{
+  text-align: center;
+
+}
+#product h2{
+  color: var(--primary);
+  font-weight: 800;
+}
+
+#product button{
+  max-width: 400px;
+  margin: auto;
+}
+
+
+

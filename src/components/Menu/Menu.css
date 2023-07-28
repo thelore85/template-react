@@ -1,7 +1,10 @@
 /* MAIN */
 #menu{
-  background-color: white;
+  z-index:10;
+  /* position: fixed; */
+  background-color: var(--section-bg);
 }
+
 #menu .wrapper{
   display: flex;
   justify-content: space-between;
@@ -14,5 +17,5 @@
 }
 
 #menu .links{
-  margin-top: 10px;
+  margin-top: 20px;
 }

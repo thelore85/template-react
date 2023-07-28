@@ -7,6 +7,10 @@ const Product = () => {
       <div className="wrapper">
 
           <div className="row vertical-align">
+            <h2 className="session-title">This is what we do</h2>
+          </div>
+
+          <div className="row vertical-align">
             <div className="product-content-wrapper col-md-3">
               <h2>HTML</h2>
               <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer a est ante. Nulla facilisi. Integer elementum velit at ultricies convallis.</p>
@@ -30,7 +34,9 @@ const Product = () => {
           </div>
           
           <div className="row vertical-align">
+            <div className="button-wrapper">
               <button type="button" className="btn btn-secondary">Start Now</button>
+            </div>
           </div>
 
       </div>

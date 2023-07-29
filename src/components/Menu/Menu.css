@@ -14,11 +14,11 @@
 
 /* MENU LINKS */
 #menu .links a{
-
   margin-left: 15px;
 }
 
 #menu .links{
+  display: inline-block;
   margin: 0;
   margin-top: 20px;
 }

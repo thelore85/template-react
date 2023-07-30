@@ -75,8 +75,8 @@ const Brands = () => {
               <h2 className="brands-name">Wordpress</h2>
             </div>          
           
-
           </div>
+
 
       </div>
     </section>

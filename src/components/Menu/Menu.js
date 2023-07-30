@@ -12,7 +12,7 @@ const Menu = ( { onDarkMode } ) => {
       <nav className="wrapper">  
 
         <Logo />
-        {/* <DarkMode onDarkMode={onDarkMode}/> */}
+        <DarkMode />
         <Navigation />
         
       </nav>

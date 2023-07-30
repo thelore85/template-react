@@ -19,8 +19,7 @@ const Navigation = () => {
     </div>
 
     <div className="mobile-nagvigation d-block d-sm-none">
-      <button className="header-menu-button menu" variant="primary" onClick={handleShow}>|||</button>
-      <button className="header-account-button account" variant="primary" onClick={handleShow}><i className="fa fa-user" aria-hidden="true"></i></button>
+      <i class="fa-solid fa-bars" onClick={handleShow} ></i>
     </div>
 
     {/* hidden menu - offcanvas*/}

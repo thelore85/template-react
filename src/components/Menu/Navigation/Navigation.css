@@ -15,6 +15,12 @@
   margin-top: 12px;
 }
 
+.mobile-nagvigation i{
+  margin-top: 10px;
+  font-size: 21px;
+  color: gray;
+}
+
 .canvas-navigation a{
   display: block;
 }
@@ -31,8 +37,8 @@ ACCOUNT MENU
 .header-menu-button{
   border: none;
   border-radius: 100%;
-  height: 40px;
-  width:40px;
+  height: 50px;
+  width:50px;
   rotate:90deg;
   color: gray;
   background-color: rgba(255, 255, 255, 0);

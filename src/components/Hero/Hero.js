@@ -7,8 +7,8 @@ const Hero = () => {
     <section id="hero">
       <div className="wrapper row vertical-align">
         <div className="hero-content-wrapper col-md-6">
-          <h1>Build your Web Application</h1>
-          <h2>Push the limit of your creativity with React</h2>
+          <h1>Here to Build your Web</h1>
+          <h2>Looking for a web developer? <br />you are in the right place!</h2>
           <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer a est ante. Nulla facilisi. Integer elementum velit at ultricies convallis.</p>
           <button type="button" className="btn btn-secondary">Start Now</button>
           <button type="button" className="btn btn-secondary-alt">Discover More</button>

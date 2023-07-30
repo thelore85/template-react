@@ -2,7 +2,7 @@
   z-index:1;
   position: relative;
   background-color: var(--section-bg);
-  min-height: 90vh;
+  min-height: 80vh;
 }
 
 #hero p{

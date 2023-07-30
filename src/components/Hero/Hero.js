@@ -14,7 +14,7 @@ const Hero = () => {
           <button type="button" className="btn btn-secondary-alt">Discover More</button>
         </div>
 
-        <div className="hero-image-wrapper col-md-6">
+        <div className="hero-image-wrapper col-md-6 d-none d-md-block d-lg-block">
           <img className="hero-image" id="hero-image" src={heroImage}/>
         </div>
       </div>

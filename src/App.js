@@ -3,7 +3,8 @@ import Menu from './components/Menu/Menu.js';
 import Hero from './components/Hero/Hero.js';
 import Footer from './components/Footer/Footer.js';
 import Product from './components/Product/Product.js';
-import About from './components/About/About.js';
+import Mission from './components/Mission/Mission.js';
+import Brands from './components/Brands/Brands.js';
 
 // css
 import 'bootstrap/dist/css/bootstrap.min.css'
@@ -36,7 +37,8 @@ onDarkModeSwitch = (event) => {
 				<Menu onDarkMode = {this.onDarkModeSwitch}/>
 				<Hero />
 				<Product />
-				<About />
+				<Brands />
+				<Mission />
 				<Footer />
 			</div>
 		)

@@ -1,18 +1,18 @@
 import React from 'react';
-import './About.css';
-import aboutImage from '../../img/friends-primary_light.svg'
+import './Mission.css';
+import missionImage from '../../img/friends-primary_light.svg'
 
-const About = () => {
+const Mission = () => {
   return(
-    <section id="about" className="vertical-align">
+    <section id="mission" className="vertical-align">
       <div className="wrapper row vertical-align">
 
-        <div className="about-image-wrapper col-md-6">
-          <img className="about-image" id="about-image" src={aboutImage}/>
+        <div className="mission-image-wrapper col-md-6">
+          <img className="mission-image" id="mission-image" src={missionImage}/>
         </div>
 
-        <div className="about-content-wrapper col-md-6">
-          <h2>We believe in what we do</h2>
+        <div className="mission-content-wrapper col-md-6">
+          <h2>My mission. Your sucess.</h2>
           <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer a est ante. Nulla facilisi. Integer elementum velit at ultricies convallis.</p>
           <p>Integer a est ante. Nulla facilisi. Integer elementum velit at ultricies convallis. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
           <button type="button" className="btn btn-primary">Start Now</button>
@@ -23,4 +23,4 @@ const About = () => {
   )
 }
 
-export default About;
+export default Mission;

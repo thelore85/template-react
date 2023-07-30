@@ -10,7 +10,7 @@ const DarkMode = ({ onDarkMode }) =>{
         </span>
 
         <label className="switch">
-          <input type="checkbox" onClick={onDarkMode}/>
+          <input type="checkbox" onChange={onDarkMode}/>
           <span className="slider round"></span>
         </label>
 

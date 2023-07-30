@@ -6,7 +6,7 @@
 }
 
 #menu .wrapper{
-  display: inline;
+  display: inline-block;
   justify-content: space-between;
   width: 100%;
 

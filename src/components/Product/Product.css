@@ -1,8 +1,4 @@
 
-#product{
-  padding-top: 80px;
-  padding-bottom: 80px;
-}
 #product .wrapper{
   text-align: center;
 
@@ -20,7 +16,7 @@
 
 #product .session-title{
 	font-family: 'Baloo 2', cursive;
-	font-size: 45px;
+	font-size: 35px;
 	letter-spacing: 0px;
   margin-bottom: 40px;
   color: var(--on-background);

@@ -7,7 +7,7 @@ const Brands = () => {
       <div className="wrapper">
 
           <div className="row vertical-align">
-            <h2 className="session-title">Technology at your support</h2>
+            <h2 className="session-title">The best technology at your support</h2>
             <p> We stay up to date to the latest developing tecnology. <br/>
             To delivery the best, for you.</p>
           </div>

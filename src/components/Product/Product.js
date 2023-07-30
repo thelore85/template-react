@@ -6,9 +6,9 @@ const Product = () => {
     <section id="product">
       <div className="wrapper">
 
-          <div className="row vertical-align">
+          {/* <div className="row vertical-align">
             <h2 className="session-title">How we can help</h2>
-          </div>
+          </div> */}
 
           <div className="row vertical-align">
 

@@ -2,6 +2,7 @@ import React from 'react';
 import Logo from './Logo/Logo.js';
 import DarkMode from './DarkMode/DarkMode.js';
 import Navigation from './Navigation/Navigation.js'
+
 import './Menu.css';
 
 
@@ -11,7 +12,7 @@ const Menu = ( { onDarkMode } ) => {
       <nav className="wrapper">  
 
         <Logo />
-        <DarkMode onDarkMode={onDarkMode}/>
+        {/* <DarkMode onDarkMode={onDarkMode}/> */}
         <Navigation />
         
       </nav>

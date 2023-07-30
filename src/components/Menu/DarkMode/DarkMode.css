@@ -2,6 +2,9 @@
 #dark-mode{
   z-index: 11;
   display: inline-block;
+  margin: 0;
+  margin-top: 20px;
+  float: right;
 }
 
 #dark-mode i{
@@ -11,20 +14,6 @@
   /* color: var(--secondary) */
   color: rgb(188, 188, 188);
 }
-
-/* #dark-mode .toggle-text{
-  color: var(--secondary);
-  font-weight: 400;
-} */
-
-
-/* input:checked + .slier {
-  background: var(--primary-color);
-}
-
-
- */
-
 
 /* checkbox styling //////////////////////////// */
 .switch {

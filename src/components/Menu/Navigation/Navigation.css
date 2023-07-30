@@ -1,0 +1,11 @@
+/* MENU LINKS */
+#navigation {
+  display: inline-block;
+  margin: 0;
+  margin-top: 20px;
+  float: right;
+}
+
+#navigation a{
+  margin-left: 15px;
+}

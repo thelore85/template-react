@@ -1,21 +1,19 @@
 import React from 'react';
-import Logo from '../Logo/Logo.js';
-import DarkMode from '../DarkMode/DarkMode.js';
+import Logo from './Logo/Logo.js';
+import DarkMode from './DarkMode/DarkMode.js';
+import Navigation from './Navigation/Navigation.js'
 import './Menu.css';
 
 
 const Menu = ( { onDarkMode } ) => {
   return(
     <section id="menu">
-      <nav className="wrapper">
+      <nav className="wrapper">  
+
         <Logo />
-
-        <div className="links">
-            <a href="#">Register</a>
-            <a href="#">Log-in</a>
-            <DarkMode onDarkMode={onDarkMode}/>
-        </div>
-
+        <DarkMode onDarkMode={onDarkMode}/>
+        <Navigation />
+        
       </nav>
     </section>
   )

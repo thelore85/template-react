@@ -10,6 +10,16 @@ import Brands from './components/Brands/Brands.js';
 import 'bootstrap/dist/css/bootstrap.min.css'
 import './App.css';
 
+
+
+////////////////////////////////
+/////////TO DO
+//////////////////////////////
+
+// BACKGROUND IMAGE ON HERO
+// PORTFOLIO SECTION
+// ABOUT SECTION
+
 class App extends Component{
 
 	render(){

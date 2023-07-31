@@ -3,9 +3,9 @@ import './Logo.css';
 
 const Logo = () => {
   return(
-    <div id="logo" className="logo">
-      <i className="fa-solid fa-mug-hot"></i>
-      MY-LOGO
+    <div id="logo" className="">
+      <i class="fa-solid fa-laptop-code"></i>
+      <span className="text">PIQUS.io</span>
     </div>
   )
 }

@@ -1,6 +1,7 @@
 /* MAIN */
 #menu{
   z-index:10;
+  /* position: fixed; */
   padding: 20px 20px;
   background-color: var(--section-bg);
 }
@@ -9,7 +10,10 @@
   display: inline-block;
   justify-content: space-between;
   width: 100%;
+}
 
+#menu .wrapper > *{
+  margin-bottom: 0;
 }
 
 

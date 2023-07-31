@@ -2,7 +2,7 @@
 .navigation {
   display: inline-block;
   margin: 0;
-  margin-top: 20px;
+  margin-top: 10px;
   float: right;
 }
 
@@ -16,7 +16,6 @@
 }
 
 .mobile-nagvigation i{
-  margin-top: 10px;
   font-size: 21px;
   color: gray;
 }

@@ -13,7 +13,7 @@ const DarkMode = ({  }) =>{
   }
 
   return(
-    <div id="dark-mode" className="theme-switch-wrapper">
+    <div id="dark-mode" className="theme-switch-wrapper vertival-align">
 
       <span className="toggle-icon">
         {/* <i className="fas fa-sun"></i> */}

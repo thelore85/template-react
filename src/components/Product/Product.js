@@ -39,7 +39,7 @@ const Product = () => {
           
           <div className="row vertical-align">
             <div className="button-wrapper">
-              <button type="button" className="btn btn-secondary">View my Portfolio</button>
+              <button type="button" className="btn btn-secondary">Portfolio</button>
             </div>
           </div>
 

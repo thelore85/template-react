@@ -6,11 +6,13 @@
  
   --secondary-button: #ffffff;
   
-  --background:rgba(244, 244, 244, 0.483);
+  --background:rgb(255, 255, 255);
+  --background-img: url(./img/code_bg_piqus_web.jpg);
   --section-bg:rgb(255, 255, 255);
   --section-bg-alt:#2f97ff;
   --section-bg-top:#dd0072;
-  --box-shadow: 1px 1px 8px rgba(0, 0, 0, 0.102);
+  
+  --box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.192);
   
   --on-primary: rgb(250, 250, 250);
   --on-secundary: rgb(250, 250, 250);
@@ -27,6 +29,7 @@
   --secondary-button: #ffffff;
   
   --background: #373737;
+  --background-img: url(./img/code_bg_piqus_dark.jpg);
   --section-bg:rgb(0, 0, 0);
   --section-bg-alt:#244a71;
   --section-bg-top:#ad0059;
@@ -42,7 +45,7 @@
 
 html{
   scroll-behavior: smooth;
-  box-sizing:border-box;
+  /* box-sizing:border-box; */
 }
 
 body{
@@ -112,7 +115,7 @@ section{
 /* /////////////////////////// */
 
 .btn{
-  margin-bottom: 10px;
+  margin: 10px;
 }
 
 .btn-primary{

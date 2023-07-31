@@ -5,6 +5,7 @@ import Footer from './components/Footer/Footer.js';
 import Product from './components/Product/Product.js';
 import Mission from './components/Mission/Mission.js';
 import Brands from './components/Brands/Brands.js';
+import ContactForm from './components/ContactForm/ContactForm.js';
 
 // css
 import 'bootstrap/dist/css/bootstrap.min.css'
@@ -30,6 +31,7 @@ class App extends Component{
 				<Product />
 				<Brands />
 				<Mission />
+				<ContactForm />
 				<Footer />
 			</div>
 		)

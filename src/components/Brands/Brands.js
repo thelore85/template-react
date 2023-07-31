@@ -45,7 +45,7 @@ const Brands = () => {
              <h2 className="brands-name">Express js</h2>
             </div>
 
-            <div className="icon-wrapper">
+            {/* <div className="icon-wrapper">
             <i class="fa-solid fa-database"></i>
              <h2 className="brands-name">Mongo db</h2>
             </div>
@@ -73,7 +73,7 @@ const Brands = () => {
             <div className="icon-wrapper">
               <i class="fa-brands fa-wordpress"></i>
               <h2 className="brands-name">Wordpress</h2>
-            </div>          
+            </div>           */}
           
           </div>
 

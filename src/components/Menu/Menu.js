@@ -6,7 +6,7 @@ import Navigation from './Navigation/Navigation.js'
 import './Menu.css';
 
 
-const Menu = ( { onDarkMode } ) => {
+const Menu = () => {
   return(
     <section id="menu">
       <nav className="wrapper">  

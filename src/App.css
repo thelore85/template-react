@@ -9,8 +9,10 @@
   --background:rgb(255, 255, 255);
   --background-img: url(./img/code_bg_piqus_web.jpg);
   --section-bg:rgb(255, 255, 255);
-  --section-bg-alt:#2f97ff;
-  --section-bg-top:#dd0072;
+  --section-bg-alt:linear-gradient(30deg, #2f97ff 0%, #21d1db 100%);
+  /* --section-bg-alt:#2f97ff; */
+  --section-bg-top:linear-gradient(30deg, rgba(203,0,139,1) 0%, rgb(255, 0, 115) 100%);
+  /* --section-bg-top:#dd0072; */
   
   --box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.192);
   

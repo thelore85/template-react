@@ -9,11 +9,17 @@
 
 #dark-mode i{
   vertical-align: middle;
-  /* margin-left: 25px; */
-  font-size: 20px;
+  margin-left: 25px;
+  font-size: 15px;
   /* color: var(--secondary) */
   color: rgb(188, 188, 188);
 }
+
+
+#dark-mode .hidden{
+  display: none;
+}
+
 
 /* checkbox styling //////////////////////////// */
 .switch {

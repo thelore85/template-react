@@ -17,7 +17,6 @@ import './App.css';
 /////////TO DO
 //////////////////////////////
 
-// BACKGROUND IMAGE ON HERO
 // PORTFOLIO SECTION
 // ABOUT SECTION
 
@@ -30,8 +29,8 @@ class App extends Component{
 				<Hero />
 				<Product />
 				<Brands />
-				<Mission />
 				<ContactForm />
+				<Mission />
 				<Footer />
 			</div>
 		)

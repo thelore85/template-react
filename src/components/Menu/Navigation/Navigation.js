@@ -1,8 +1,9 @@
 import React from 'react';
 import { useState } from 'react';
 import Offcanvas from 'react-bootstrap/Offcanvas'; // sidebar menu
-
 import './Navigation.css';
+import LogoutMenu from '../LogoutMenu/LogoutMenu.js';
+
 
 const Navigation = () => {
 
@@ -10,12 +11,10 @@ const Navigation = () => {
 	const handleClose = () => setShow(false);
 	const handleShow = () => setShow(true);
 
-
   return(
     <>
     <div className="navigation 	d-none d-sm-block">
-      <a href="#">Register</a>
-      <a href="#">Log-in</a>
+      <LogoutMenu />
     </div>
 
     <div className="mobile-nagvigation d-block d-sm-none">
@@ -30,8 +29,7 @@ const Navigation = () => {
         <Offcanvas.Body>
     
         <div className="canvas-navigation">
-          <a href="#">Register</a>
-          <a href="#">Log-in</a>
+          <LogoutMenu />
         </div>
 
         </Offcanvas.Body>

@@ -1,6 +1,6 @@
 
 #brands{
-  background-color: var(--section-bg-top);
+  background: var(--section-bg-top);
 }
 
 #brands .wrapper{

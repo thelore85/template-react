@@ -1,5 +1,5 @@
 {
-  
+
   "name": "react-template",
   "version": "1.0.1",
   "description": "",
@@ -33,5 +33,4 @@
   "now": {
     "builds": [ { "src": "webpack.config.js", "use": "@now/static-build" }]
   }
-
 }

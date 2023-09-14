@@ -1,60 +1,52 @@
-# Web App
+# React Template Project
 
-////////////////////////////////////////
-INSERT APP GENERIC DESCRIPTION HERE
-////////////////////////////////////////
+This project is a starter template for building React applications. It provides a structured foundation for creating web applications using React.js.
 
-EG: This project is a JavaScript application that utilizes the browser's `mediaDevices` web API to offer Picture-in-Picture (PiP) functionality. With this app, you can select a screen area and display it in a separate PiP window.
+## Overview
 
-## How It Works
-////////////////////////////////////////
-DESCRIBE FUNCTIONALITIES AND FEATURES
-////////////////////////////////////////
+This React template project is designed to streamline the development process for React applications. It includes essential tools and configurations to help you get started quickly.
 
-1. Click the "Select Screen" button to choose the screen area you want to display in the PiP window.
-2. Once the screen is selected, click the "Show PiP" button to start the Picture-in-Picture display.
+## Features
 
-## Requirements
+- **React**: A powerful JavaScript library for building user interfaces.
+- **Webpack**: Bundles and optimizes your code for production.
+- **Babel**: Transpiles modern JavaScript so you can use the latest features.
+- **ESLint**: Enforces code quality and style guidelines.
+- **CSS Modules**: Allows you to write scoped CSS for your components.
 
-////////////////////////////////////////
-DEFINE REQUIREMENTS IF NEEDED
-////////////////////////////////////////
+## Getting Started
 
-To use this app, ensure that you have a browser compatible with the `mediaDevices` API and support for the Picture-in-Picture feature.
+Follow these steps to set up and start working with the template:
 
-## How to Use the Code
+1. Clone this repository: `git clone https://github.com/thelore85/template-react.git`
+2. Navigate to the project directory: `cd template-react`
+3. Install dependencies: `npm install`
+4. Start the development server: `npm start`
+5. Open your browser and go to [http://localhost:1954](http://localhost:1954) to see the template in action.
 
-////////////////////////////////////////
-INSTRUCTION ON HOW TO USE THE CODE
-////////////////////////////////////////
+## Folder Structure
 
-The main JavaScript code for the program can be found in the `script.js` file. The application also uses an HTML file (`index.html`) and a CSS style file (`styles.css`) for the UI structure and appearance.
+- `src/`: Contains your application's source code.
+  - `components/`: Place your React components here.
+  - `styles/`: Store your CSS or SCSS files here.
+- `public/`: Contains static assets like HTML files and images.
 
-## Installation Instructions
+## Contributing
 
-////////////////////////////////////////
-INSTRUCTION ON HOW TO INSTALL THE CODE
-////////////////////////////////////////
+We welcome contributions from the community. If you'd like to contribute to this template project, please follow these steps:
 
-1. Clone the repository using the `git clone` command or download the source code as a ZIP file.
-2. Open the `index.html` file in your web browser.
-
-## Used APIs
-
-////////////////////////////////////////
-TECNICAL DETAILS
-////////////////////////////////////////
-
-- `navigator.mediaDevices.getDisplayMedia()`: Used to gain access to the screen area selected by the user.
-- `videoElement.requestPictureInPicture()`: Used to initiate Picture-in-Picture mode with the selected video.
-
-## Contributions
-
-If you wish to contribute to this project, feel free to open a Pull Request. We welcome suggestions and corrections!
+1. Fork the repository.
+2. Create a new branch for your feature or bug fix: `git checkout -b feature-name`
+3. Make your changes and commit them: `git commit -m 'Add new feature'`
+4. Push your branch to your fork: `git push origin feature-name`
+5. Open a Pull Request on GitHub, and describe your changes in detail.
 
 ## License
 
-This project is licensed under the MIT License - see the `LICENSE.md` file for details.
+This template project is licensed under the MIT License - see the `LICENSE.md` file for details.
 
 ---
-Author: Piqus (https://piqus.it)
+
+**Author**: Piqus
+**Website**: [piqus.it](https://piqus.it)
+

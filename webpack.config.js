@@ -1,23 +1,27 @@
 const path = require('path')
 const HTMLWebpackPlugin = require('html-webpack-plugin');
+const ASSET_PATH = process.env.ASSET_PATH || '/';
+
+
 module.exports ={
   mode: 'development',
 	entry:'./src/index.js',
 	output:{
 		path: path.join(__dirname, '/build'),
 		filename: 'bundle.js',
+    publicPath: ASSET_PATH,
 	},
 	devServer:{
     compress: true,
     open: true,
-    port: 9000,
+    port: 1954,
     hot: true,
 	},
   resolve: {
     modules: [path.resolve(__dirname, 'src'), 'node_modules'],
   },
 	plugins:[
-		new HTMLWebpackPlugin({ template: './src/index.html'})
+		new HTMLWebpackPlugin({ template: './src/index.html'}),
 	],
 	module: {
 		rules: [
@@ -34,6 +38,10 @@ module.exports ={
 			test:/\.svg$/, //manage .svg file
 			use:[{loader:'svg-url-loader', options:{limiit:10000,}}]
 			},
+      {
+        test: /\.(png|svg|jpg|jpeg|gif)$/i,
+        type: 'asset/resource',
+      },
 		]
 	}
 }

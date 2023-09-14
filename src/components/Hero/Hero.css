@@ -1,12 +1,11 @@
 #hero {
   z-index:1;
   position: relative;
-  background-color: var(--section-bg);
+  background: var(--background-gradient-a);
   padding-top: 60px;
   padding-bottom:60px;
   min-height: 90vh;
 
-  background-image: var(--background-img);
   background-position: center; /* Center the image */
   background-repeat: no-repeat; /* Do not repeat the image */
   background-size: cover; 
